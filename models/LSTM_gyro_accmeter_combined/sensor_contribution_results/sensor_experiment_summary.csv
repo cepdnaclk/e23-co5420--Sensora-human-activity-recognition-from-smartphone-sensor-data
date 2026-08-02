@@ -1,0 +1,4 @@
+Experiment,Accuracy,Macro Precision,Macro Recall,Macro F1,Weighted F1,Channels,Number of channels,Epochs trained
+Accelerometer only,0.8903970139124533,0.8903918392391598,0.8906393045606557,0.8887764876081118,0.888904618901919,"body_acc_x, body_acc_y, body_acc_z, total_acc_x, total_acc_y, total_acc_z",6,10
+Gyroscope only,0.5751611808618935,0.4829801451350683,0.5861324858556026,0.5034995630655242,0.48778629686449687,"body_gyro_x, body_gyro_y, body_gyro_z",3,10
+Combined sensors,0.9168646080760094,0.9163137273990475,0.9189742003161449,0.9173402023161441,0.9159453114476092,"body_acc_x, body_acc_y, body_acc_z, body_gyro_x, body_gyro_y, body_gyro_z, total_acc_x, total_acc_y, total_acc_z",9,16

@@ -1,0 +1,7 @@
+The same LSTM architecture was evaluated with accelerometer-only, gyroscope-only, and combined sensor inputs.
+
+The accelerometer-only model achieved a Macro F1 of 0.8888, while the gyroscope-only model achieved 0.5035. The combined-sensor model achieved 0.9173. Relative to the combined model, removing gyroscope information changed Macro F1 by +0.0286, and removing accelerometer information changed it by +0.4138.
+
+The highest Macro F1 was obtained by: Combined sensors.
+
+If the combined model is clearly better than both single-sensor models, this supports the conclusion that accelerometer and gyroscope signals provide complementary information. If a single-sensor model performs similarly or better, the result suggests that the additional sensor may offer limited benefit under this architecture and evaluation setting. Per-class F1 scores should be used to identify activities for which each sensor is most valuable.
