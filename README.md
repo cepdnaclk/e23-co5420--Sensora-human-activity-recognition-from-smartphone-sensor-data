@@ -112,38 +112,7 @@ The models will be evaluated using the following metrics:
 
 ---
 
-## Repository Structure
 
-```text
-e23-co5420-sensora-human-activity-recognition/
-
-├── data/
-│   ├── raw/
-│   └── processed/
-│
-├── notebooks/
-│   ├── EDA.ipynb
-│   ├── DecisionTree.ipynb
-│   ├── SVM.ipynb
-│   ├── FNN.ipynb
-│   ├── LSTM.ipynb
-│   └── CNN_LSTM.ipynb
-│
-├── src/
-│   ├── preprocessing.py
-│   ├── evaluation.py
-│   ├── visualization.py
-│   └── utils.py
-│
-├── models/
-├── experiments/
-├── results/
-├── kaggle/
-├── report/
-└── presentation/
-```
-
----
 
 ## Team Members — Group E23/005
 
