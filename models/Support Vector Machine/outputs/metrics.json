@@ -1,0 +1,22 @@
+{
+    "default_svm": {
+        "accuracy": 0.9782460910944936,
+        "macro_precision": 0.9798956610255757,
+        "macro_recall": 0.9800117910623748,
+        "macro_f1": 0.97993597993598
+    },
+    "tuned_svm": {
+        "accuracy": 0.9898028552005439,
+        "macro_precision": 0.9906673086727468,
+        "macro_recall": 0.9905270604881501,
+        "macro_f1": 0.9905868364338973
+    },
+    "best_cv_macro_f1": 0.9860345594443626,
+    "best_parameters": {
+        "C": 10,
+        "gamma": "scale",
+        "kernel": "rbf"
+    },
+    "decision_tree_macro_f1": 0.9399,
+    "grid_search_runtime_seconds": 215.33467936515808
+}

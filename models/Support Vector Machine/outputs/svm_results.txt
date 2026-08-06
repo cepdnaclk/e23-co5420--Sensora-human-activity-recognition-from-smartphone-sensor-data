@@ -1,0 +1,38 @@
+MEMBER 2 - SUPPORT VECTOR MACHINE RESULTS
+==================================================
+
+DATA
+----
+Training samples       : 5881 expected
+Validation samples     : 1471 expected
+Number of features     : 561 expected
+Validation metric      : Macro F1-score
+
+DEFAULT SVM
+-----------
+Kernel                  : rbf
+C                       : 1.0
+Gamma                   : scale
+Accuracy                : 0.978246
+Macro Precision         : 0.979896
+Macro Recall            : 0.980012
+Macro F1                : 0.979936
+
+TUNED SVM
+---------
+Best parameters         : {'C': 10, 'gamma': 'scale', 'kernel': 'rbf'}
+Accuracy                : 0.989803
+Macro Precision         : 0.990667
+Macro Recall            : 0.990527
+Macro F1                : 0.990587
+
+COMPARISON
+----------
+Decision Tree Macro F1  : 0.939900
+Tuned SVM Macro F1      : 0.990587
+Difference              : +0.050687
+
+Interpretation:
+The tuned SVM performed better than the tuned Decision Tree.
+
+Grid-search runtime     : 215.33 seconds

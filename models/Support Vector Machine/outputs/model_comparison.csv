@@ -1,0 +1,4 @@
+Model,Validation Macro F1
+Decision Tree (Member 1),0.9399
+"Default SVM (RBF, C=1)",0.97993597993598
+Tuned SVM,0.9905868364338973
